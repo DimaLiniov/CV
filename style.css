@@ -162,7 +162,7 @@ dd {
 }
 
 .right_bar .sec_one h1 {
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 45px;
 }
 
@@ -191,7 +191,7 @@ dd {
 .period {
     display: flex;
     justify-content: space-between;
-    margin-top: 57px;
+    margin-top: 40px;
 }
 
 .period :last-child {
@@ -199,8 +199,8 @@ dd {
 }
 
 .line_grey:after {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     content: '';
     display: block;
     margin-right: 30px;
@@ -218,14 +218,15 @@ dd {
 }
 
 .for_lan {
-    margin-top: 57px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: left;
+    flex-direction: row;
 }
 
 .lan {
+    margin-right: 50px;
     width: 174px;
     padding: 10px;
     margin-top: 10px;
@@ -338,10 +339,9 @@ dd {
     .for_lan{
         margin-top: 30px;
         padding-bottom: 30px;
-        display: flex;
+        display: inline-block;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
     }
     .sec_one p{
         margin-right: 0;
